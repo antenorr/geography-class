@@ -1,0 +1,17 @@
+{
+  "name": "capital-trivia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-myconfig": "^0.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}

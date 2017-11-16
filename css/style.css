@@ -1,0 +1,101 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 16px;
+    
+}
+.projectTitle {
+    color: #fff;
+    font-family: 'The Girl Next Door', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+.backdrop {
+    background-image: url(../images/together-2450095_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+.teacher-photo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+    top: 20px;
+    width: 650px;
+    z-index: -1;
+}
+.blackBoard,
+#coolPoints {
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    height: 70px;
+    margin: 20px 80px;
+    position: absolute;
+    top: 0;
+    width: 60%;
+    z-index: 1;
+}
+#coolPoints {
+    border: none;
+    margin-top: 265px;
+    margin-left: 175px;
+    width: 40%;
+}
+#answerBox {
+    position: relative;
+    bottom: 200px;
+    left: 115px;
+    width: 400px;
+    z-index: 3;
+}
+#answerField {
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0, .55), 0px 1px 1px rgba(255,255,255,.5);
+    border: 1px solid #666;
+    color: #2a3dbf;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    padding: 8px 8px;
+    width: 175px;
+}
+#ready {
+    border: none;
+    background: transparent;
+    color: #3dbf2a;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    outline: none;
+}
+#ready:hover {
+    color: #fff;
+}
+#answerConfirmation {
+   border-bottom: 1px double #2a3dbf;
+   color: #2a3dbf;
+   font-family: 'The Girl Next Door', cursive;
+   font-size: 2rem;
+   position: absolute;
+   left: 200px;
+   top: 130px; 
+}
+
+
+
+
+
+
+
